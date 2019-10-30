@@ -11,8 +11,7 @@
     </div>
 
 <div>
-  <b-dropdown id="config" text="Configuration" variant="primary" class="m-2">
-    <b-dropdown-item href="#">Language</b-dropdown-item>
+  <b-dropdown id="config" text="HELP" variant="primary" class="m-2">
 	 
     <b-dropdown-item href="#" v-b-modal.modal-tall>Help</b-dropdown-item>
     
@@ -22,7 +21,7 @@
 <div>
   <b-modal id="modal-tall" title="HELP">
     <p class="my-4" v-for="i in 1" :key="i">
-      INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION INFORMATION
+      Elije la dificultad con la que quieres jugar, y la categoria 
     </p>
   </b-modal>
 

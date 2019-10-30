@@ -15,7 +15,7 @@
         <br>
         <b-form-radio v-model="selected" name="some-radios" value="B" class="radiobtn">Technology</b-form-radio>
       </div>
-      <div><b-button id="next2"><a href="./subject" style="color:white">NEXT</a></b-button></div>
+      <div><b-button id="next2"><a href="./just" style="color:white">NEXT</a></b-button></div>
       
       </b-card-text>
       
